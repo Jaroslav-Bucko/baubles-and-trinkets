@@ -46,8 +46,6 @@ function doDelete(app){
   target.click();
 }
 
-document.body.style.background = "#ff5511";
-
 function deleteApps(apps){
   
   if (confirm('Mass apps removal: You have ' + apps.length+' apps. Clean? You will have to reenable valid apps.')) {
